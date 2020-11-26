@@ -1,0 +1,35 @@
+body {
+  background: whitesmoke;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #bf360c;
+}
+
+svg {
+  color: #bf360c;
+}
+
+nav * {
+  align-self: center;
+}
+
+nav a {
+  color: #dfc6c0;
+  text-decoration: none;
+  margin: 8px;
+  padding: 8px;
+}
+
+nav a:hover {
+  color: white;
+  background: #bb664c;
+  border-radius: 8px;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+}
