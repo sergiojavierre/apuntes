@@ -5,7 +5,7 @@ import './subject.css'
 export default function SubjectCard({subject, ciclo}){
 
 
-    const urlGitHub = "https://github.com/SergioJavierre/"
+    const urlGitHub = "https://github.com/sergiojavierre/"
     //{"name":"", "link": ""}
     const linksProgramacion =  [{"name":"Introducción a TypeScript", "link": urlGitHub+"introTypeScript"},{"name":"E/S en TypeScript", "link": urlGitHub+"ESTypeScript"},{"name":"Maquetación por consola", "link": urlGitHub+"partidosPrimeraTypeScript"}]
     const linksEntornos = [{"name":"Uso básico de POO", "link": urlGitHub+"clasesTypeScript"}]

@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #bf360c;
+  --secondary-color: #bb664c;
+}
+
 body {
   background: whitesmoke;
 }
@@ -5,11 +10,11 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  background: #bf360c;
+  background: var(--primary-color);
 }
 
 svg {
-  color: #bf360c;
+  color: var(--primary-color);
 }
 
 nav * {
@@ -25,7 +30,7 @@ nav a {
 
 nav a:hover {
   color: white;
-  background: #bb664c;
+  background: var(--secondary-color);
   border-radius: 8px;
 }
 

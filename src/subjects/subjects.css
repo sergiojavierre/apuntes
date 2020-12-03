@@ -1,0 +1,15 @@
+.subjectsSelectors {
+  display: flex;
+}
+
+button {
+  padding: 15px;
+  background: var(--secondary-color);
+  color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+}
+
+.active {
+  background: var(--primary-color);
+}
