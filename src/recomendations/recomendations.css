@@ -1,0 +1,22 @@
+.recomendations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.recomendation {
+  background: white;
+  padding: 16px;
+  border: 0.5px solid gray;
+  border-radius: 4px;
+}
+
+.recomendation a {
+  color: darkred;
+  text-decoration: none;
+}
+
+.recomendation a:hover {
+  text-decoration: underline;
+}

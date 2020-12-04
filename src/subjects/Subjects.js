@@ -1,13 +1,15 @@
 import { useState } from "react";
 import SubjectCard from "./SubjectCard";
 
+import {programacion, entornos, marcas} from './data/subjectsNames'
+
 import './subjects.css'
 
 export default function Subjects(){
 
-    const textProgramacion = "Programación"
-    const textEntornosDeDesarrollo = "Entornos de desarrollo"
-    const textMarcas = "Lenguajes de Marcas y Sistemas de Gestión de la Información"
+    const textProgramacion = programacion
+    const textEntornosDeDesarrollo = entornos
+    const textMarcas = marcas
 
     const [visibleTodas, setVisibleTodas] = useState(true)
     const [visibleProgramacion, setVisibleProgramacion] = useState(true)

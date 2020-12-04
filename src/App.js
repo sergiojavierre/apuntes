@@ -7,6 +7,7 @@ import {
 
 import './App.css';
 import Subjects from "./subjects/Subjects";
+import Recomendations from "./recomendations/Recomendations";
 
 function App() {
   return (
@@ -15,15 +16,14 @@ function App() {
         <nav> 
               <Link to="/">sergiojavierre</Link>
               <div>
-                <Link to="/users">GitHub</Link>
-                <Link to="/users">Recomendaciones</Link>
+                <a href="https://github.com/sergiojavierre">GitHub</a>
+                <Link to="/recomendaciones">Recomendaciones</Link>
               </div>
         </nav>
         <main>
           <Switch>
-            <Route path="/about">
-            </Route>
-            <Route path="/users">
+            <Route path="/recomendaciones">
+              <Recomendations /> 
             </Route>
             <Route path="/">
               <Subjects></Subjects>

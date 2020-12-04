@@ -37,4 +37,5 @@ nav a:hover {
 main {
   width: 60%;
   margin: auto;
+  margin-top: 8px;
 }
