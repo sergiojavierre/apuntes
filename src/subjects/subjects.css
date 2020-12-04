@@ -17,3 +17,13 @@ button {
 .active {
   background: var(--primary-color);
 }
+
+@media (max-width: 700px) {
+  .subjectsSelectors {
+    flex-direction: column;
+  }
+
+  .subjectsSelectors * {
+    margin: 8px 0px;
+  }
+}
