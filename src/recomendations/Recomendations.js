@@ -62,6 +62,7 @@ export default function Recomendations () {
                     <li><a href="https://www.youtube.com/channel/UCrBzBOMcUVV8ryyAU_c6P5g">Pelado Nerd (devops)</a></li>
                     <li><a href="https://www.youtube.com/channel/UCSf6S_PAhXsqGMTPDiKgdRg">BettaTech (Calidad del software)</a></li>
                     <li><a href="https://www.youtube.com/channel/UCxPD7bsocoAMq8Dj18kmGyQ">MoureDev (apps móviles)</a></li>
+                    <li><a href="https://www.youtube.com/c/LuisCanary/videos">LuisCanary (Unity3D)</a></li>
                 </ul>
             </section>
         </div>

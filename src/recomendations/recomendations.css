@@ -1,14 +1,15 @@
 .recomendations {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin-bottom: 8px;
+  gap: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .recomendation {
   background: white;
   padding: 16px;
-  border: 0.5px solid gray;
+  border: 0.5px solid rgb(202, 202, 202);
   border-radius: 4px;
 }
 

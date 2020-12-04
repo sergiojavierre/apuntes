@@ -8,11 +8,32 @@
   justify-content: space-between;
   background: white;
   padding: 16px;
-  border: 0.5px solid gray;
+  border: 0.5px solid rgb(202, 202, 202);
   border-radius: 4px;
   margin: 8px 0px;
 }
 
 .repository * {
   align-self: center;
+}
+
+.repository a {
+  margin-left: 5px;
+}
+
+label {
+  color: gray;
+  font-size: 0.8em;
+}
+
+.fa-thermometer-quarter {
+  color: green;
+}
+
+.fa-thermometer-half {
+  color: orange;
+}
+
+.fa-thermometer-full {
+  color: red;
 }

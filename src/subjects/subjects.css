@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.subjectsSelectors * {
+  margin-right: 8px;
+}
+
 button {
   padding: 15px;
   background: var(--secondary-color);

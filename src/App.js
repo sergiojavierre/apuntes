@@ -18,6 +18,7 @@ function App() {
               <div>
                 <a href="https://github.com/sergiojavierre">GitHub</a>
                 <Link to="/recomendaciones">Recomendaciones</Link>
+                <a href="mailto:sergio.javierre@fppiramide.com">📩</a>
               </div>
         </nav>
         <main>
@@ -30,6 +31,9 @@ function App() {
             </Route>
           </Switch>
         </main>
+        <footer>
+            <p> </p>
+        </footer>
       </div>
     </Router>
   );
